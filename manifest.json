@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Marugoto Speed Controller",
+    "description": "Allows the user to change the speed of Marugoto Audios - Use S, A and D keys to control it.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "js": ["script.js"],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "icons": {
+        "128": "icon.png"
+    } 
+   }
+  
